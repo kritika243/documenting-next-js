@@ -6,6 +6,13 @@ const Home = (prop) => {
       <h1>Home Page</h1>
       <h2>{prop.message}</h2>
       <Link href='/products'>View All Products</Link>
+      <style jsx>
+        {`
+          h1 {
+            color: red;
+          }
+        `}
+      </style>
     </div>
   )
 }
