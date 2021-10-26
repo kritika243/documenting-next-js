@@ -12,7 +12,8 @@ const Layout = ({ children }) => {
         <link
           href='https://fonts.googleapis.com/icon?family=Material+Icons'
           rel='stylesheet'
-        ></link>
+        />
+        <link rel='stylesheet' href='/style.css' />
       </Head>
       <Navbar />
       {children}
