@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav>
         <div className='nav-wrapper #7e57c2 deep-purple lighten-1'>
           <Link href='/'>
-            <a class='brand-logo left'>Shoppers</a>
+            <a className='brand-logo left'>Shoppers</a>
           </Link>
           <ul id='nav-mobile' className='right'>
             <li className={isActive('/login')}>
