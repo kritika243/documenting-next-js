@@ -3,23 +3,28 @@ import Link from 'next/link'
 const Home = ({ products }) => {
   const productList = products.map((product) => {
     return (
-      <div className='card' key={product._id}>
+      <div className='card hoverable' key={product._id}>
         <div className='card-image'>
-          <img src={product.mediaUrl} />
+          <img className='responsive-img' src={product.mediaUrl} />
           <span className='card-title'>{product.name}</span>
         </div>
         <div className='card-content'>
           <p>Rs {product.price}</p>
         </div>
         <div className='card-action'>
-          <a href='#'>This is a link</a>
+          <a href='#'>View Details</a>
         </div>
       </div>
     )
   })
 
   // console.log(products)
-  return <div className='rootCard'>{productList}</div>
+  return (
+    <>
+      <h3 className='center-align'>Shop from our collection...</h3>
+      <div className='rootCard'>{productList}</div>
+    </>
+  )
 }
 
 export async function getStaticProps() {
