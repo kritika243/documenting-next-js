@@ -6,9 +6,10 @@ const Home = ({ products }) => {
       <div className='card hoverable' key={product._id}>
         <div className='card-image'>
           <img className='responsive-img' src={product.mediaUrl} />
-          <span className='card-title'>{product.name}</span>
         </div>
         <div className='card-content'>
+          <span className='card-title'>{product.name}</span>
+
           <p>Rs {product.price}</p>
         </div>
         <div className='card-action'>
