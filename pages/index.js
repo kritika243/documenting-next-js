@@ -1,13 +1,7 @@
-import Link from 'next/link'
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 
-const Home = (prop) => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-      <h2>{prop.message}</h2>
-      <Link href='/products'>View All Products</Link>
-    </div>
-  )
+export default function Home() {
+  return <>hello world</>
 }
-
-export default Home
