@@ -1,5 +1,12 @@
 # Next Routing
 
+- File based routing
+- Nested routing
+- Dynamic Routes using useRouter
+- Nested + Dynamic Routes `see blog folder for example`
+- Catch all routes `see docs folder for example`
+- Optional catch all routes using [[]]
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
