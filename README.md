@@ -10,6 +10,7 @@
 - Navigating to Dynamic Routes
 - Working of _replace_ prop in _Link_
 - Navigate programatically using _useRouter_ + push or replace
+- Custom 404 page using _404.js in the pages folder_
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
