@@ -6,6 +6,9 @@
 - Nested + Dynamic Routes `see blog folder for example`
 - Catch all routes `see docs folder for example`
 - Optional catch all routes using [[]]
+- Navigating to different routes from the client side using _Link_
+- Navigating to Dynamic Routes
+- Working of _replace_ prop in _Link_
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
