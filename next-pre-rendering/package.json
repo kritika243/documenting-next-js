@@ -1,13 +1,5 @@
 {
-<<<<<<<< HEAD:next-routing/package.json
-<<<<<<<< HEAD:hello-world/package.json
-  "name": "hello-world",
-========
-  "name": "next-routing",
->>>>>>>> 6952f012e259b83827e6b16102956b81cf77cf5b:next-routing/package.json
-========
   "name": "next-pre-rendering",
->>>>>>>> 7c33e185f03f050297dbb65c6b7515a777a226b2:next-pre-rendering/package.json
   "version": "0.1.0",
   "private": true,
   "scripts": {
