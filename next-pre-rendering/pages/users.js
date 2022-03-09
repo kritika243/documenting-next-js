@@ -1,10 +1,14 @@
+import User from '../components/user'
+
 // users - prop from getStaticProps returned object
 const UserList = ({ users }) => {
   return (
     <>
       <h1>Users List</h1>
       {users.map((user) => (
-        <div>{user.name}</div>
+        <div>
+          <User user={user} />
+        </div>
       ))}
     </>
   )
