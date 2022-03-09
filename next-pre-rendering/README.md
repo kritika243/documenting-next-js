@@ -1,6 +1,10 @@
 # Static Generation and data
 
 - use of _getStaticProps_ : returns an object
+  - getStaticProps works only on the server side
+  - that is why console.log logs in the terminal and not in the browser console
+  - the function will never run on the client sdie
+  - the code written in the getStaticProps function won't even be included in the JS bundle that is sent to the browser
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
