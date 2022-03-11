@@ -3,8 +3,15 @@
 - use of _getStaticProps_ : returns an object
   - getStaticProps works only on the server side
   - that is why console.log logs in the terminal and not in the browser console
-  - the function will never run on the client sdie
+  - the function will never run on the client side
   - the code written in the getStaticProps function won't even be included in the JS bundle that is sent to the browser
+- You can write server side code directly in _getStaticProps_
+  - Since content in getStaticProps does not reach browser, you don't have to worry about API keys
+- _getStaticProps_ is allowed only in a page and cannot be used through components / component files
+  - it is used only for pre-rendering and not for client side data fetching
+- _getStaticProps_ should always return an object
+  `return { props: { users : data, }, }`
+- _getStaticProps_ runs at build time, however while developing _getStaticProps_ runs for every request
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
