@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# So far
+
+- A simple hello world / introduction -> [here](https://github.com/kritika243/documenting-next-js/tree/hello-world/hello-world)
+- Pre rendering in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/next-pre-rendering/next-pre-rendering)
+- Routing in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/next-routing/next-routing)
+- Understanding build in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/static-generation-build-demo/next-pre-rendering)
 
 ## Getting Started
 
