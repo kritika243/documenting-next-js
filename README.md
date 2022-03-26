@@ -1,9 +1,18 @@
 # So far
 
 - A simple hello world / introduction -> [here](https://github.com/kritika243/documenting-next-js/tree/hello-world/hello-world)
+  <br/>
 - Pre rendering in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/next-pre-rendering/next-pre-rendering)
+  <br />
 - Routing in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/next-routing/next-routing)
+  <br />
 - Understanding build in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/static-generation-build-demo/next-pre-rendering)
+  <br />
+- Static generation with dynamic params, use of getStaticPaths -> [here](https://github.com/kritika243/documenting-next-js/tree/885d69084f6d140cdeb3e44cd9a0595e30fff59e/next-pre-rendering)
+  <br />
+- getStaticPaths, fetching possible values of params and then passing to paths object -> [here](https://github.com/kritika243/documenting-next-js/tree/38438600078b39cf02ddc09e700dc93a9550e193/next-pre-rendering)
+  <br />
+- getStaticPaths, role of fallback and when set to false -> [here](https://github.com/kritika243/documenting-next-js/tree/72fc969648e4c366da4b5c1adcf8ab7b0d370e8c/next-pre-rendering)
 
 ## Getting Started
 
