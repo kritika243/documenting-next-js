@@ -6,6 +6,10 @@ const Home = () => {
       <Link href='/users'>
         <a>Go to users page</a>
       </Link>
+      <hr />
+      <Link href='/posts'>
+        <a>All Posts</a>
+      </Link>
     </>
   )
 }

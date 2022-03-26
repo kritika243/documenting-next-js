@@ -1,25 +1,10 @@
-# Static Generation and Build
+# Static Generation and Dynamic Params
 
-Page Size First Load JS
-┌ ○ / 276 B 71.2 kB
-├ /\_app 0 B 70.9 kB
-├ ○ /404 194 B 71.1 kB
-└ ● /users 354 B 71.3 kB
+## Points
 
-- First Load JS shared by all 70.9 kB
-  ├ chunks/framework-5f4595e5518b5600.js 42 kB
-  ├ chunks/main-a054bbf31fb90f6a.js 27.6 kB
-  ├ chunks/pages/\_app-9cd1d19dd7237c4c.js 493 B
-  ├ chunks/webpack-69bfa6990bb9e155.js 769 B
-  └ css/27d177a30947857b.css 194 B
-
-○ (Static) automatically rendered as static HTML (uses no initial props)
-● (SSG) automatically generated as static HTML + JSON (uses getStaticProps)
-
-## Imp points
-
-- If you navigate directly to the page route, the HTML file is served
-- If you navigate to a page route from a different route, the page is created client side using the JS and JSON pre fetched from the server -> no additional request to the server
+- use of getStaticProps to fetch data and then pass on to page as props
+- use of getStaticPaths for dynamic SSG pages and their params eg [postId].js
+- informing next js about the possible values of postId
 
 ## Getting Started
 
