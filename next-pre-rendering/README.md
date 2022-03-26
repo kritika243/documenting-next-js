@@ -7,6 +7,13 @@
 - informing next js about the possible values of postId
 - Dynamically fetching the possible values of post ids and passing to paths object in getStaticPaths
 
+#### getStaticPaths and fallback
+
+- fallback has 3 possible values > false, true & `blocking`
+- when fallback is set to false -> paths returned from getStaticPaths will be rendered to HTML at build time by getStaticProps.
+- If fallback is set to false, then any paths not returned by getStaticPaths will result in a 404 page
+- The false value is most suitable if you have an application with a small number of paths to pre-render. When new pages are not added often. A blog site with a few articles is a good example for fallback set to false
+
 ## Getting Started
 
 First, run the development server:
