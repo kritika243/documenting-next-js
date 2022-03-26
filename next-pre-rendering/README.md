@@ -5,6 +5,7 @@
 - use of getStaticProps to fetch data and then pass on to page as props
 - use of getStaticPaths for dynamic SSG pages and their params eg [postId].js
 - informing next js about the possible values of postId
+- Dynamically fetching the possible values of post ids and passing to paths object in getStaticPaths
 
 ## Getting Started
 
