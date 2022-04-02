@@ -6,8 +6,8 @@ function PostsList({ posts }) {
       <h3>Posts</h3>
       {posts.map((post) => {
         return (
-          <Link href={`posts/${post.id}`} passHref>
-            <div key={post.id}>{post.title}</div>
+          <Link key={post.id} href={`posts/${post.id}`} passHref>
+            <div>{post.title}</div>
           </Link>
         )
       })}
