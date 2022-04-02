@@ -13,6 +13,8 @@
 ⭐ getStaticPaths, fetching possible values of params and then passing to paths object -> [here](https://github.com/kritika243/documenting-next-js/tree/38438600078b39cf02ddc09e700dc93a9550e193/next-pre-rendering)
 <br />
 ⭐ getStaticPaths, role of fallback and when set to false -> [here](https://github.com/kritika243/documenting-next-js/tree/72fc969648e4c366da4b5c1adcf8ab7b0d370e8c/next-pre-rendering)
+<br/>
+⭐ getStaticPaths, fallback set to true -> [here](https://github.com/kritika243/documenting-next-js/tree/getStaticPaths-fallback-true/next-pre-rendering)
 
 ## Getting Started
 
