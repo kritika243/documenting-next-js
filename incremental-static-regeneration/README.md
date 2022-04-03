@@ -30,6 +30,15 @@ Static generation with getStaticProps for data fetching and getStatic Paths for 
 
 2. A page, once generated, can contain stale data till the time you rebuild the application
 
+# Incremental Static Regeneration
+
+There was a need to update only those pages which needed a change without having to rebuild the entire app
+
+### Incremental Static Regeneration (ISR)
+
+With ISR, Next.js allows you to update static pages after you've built your application
+You can statically generate individual pages without needing to rebuild the entire site, effectively solving the issue of dealing with stale data
+
 ## Getting Started
 
 First, run the development server:
