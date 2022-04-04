@@ -20,7 +20,7 @@
 <br/>
 ⭐ Issue of stale data with SSG -> [here](https://github.com/kritika243/documenting-next-js/tree/3bd80e8c3cdc9a75eaac4324d0de8ac284dba49a/incremental-static-regeneration)
 <br/>
-⭐ Incremental Static Regeneration, a fix for stale data -> [here](https://github.com/kritika243/documenting-next-js/tree/incremental-static-regeneration/incremental-static-regeneration)
+⭐ Incremental Static Regeneration, a fix for stale data using revalidate key in getStaticProps -> [here](https://github.com/kritika243/documenting-next-js/tree/incremental-static-regeneration/incremental-static-regeneration)
 
 ## Getting Started
 
