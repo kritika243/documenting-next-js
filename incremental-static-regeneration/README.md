@@ -1,15 +1,5 @@
 # Static Generation and Issues
 
-## Recap SSG -:
-
-Static Generation is a method of pre-rendering where the HTML pages are generated at build
-time.
-The pre-rendered static pages can be pushed to a CDN, cached and served to clients across the globe almost instantly
-Static content is fast and better for SEO as they are immediately indexed by search engines
-Static generation with getStaticProps for data fetching and getStatic Paths for dynamic pages seems like a really good approach to a wide variety of applications in production
-
-## Issues
-
 1. The build time is proportional to the number of pages in the application
 
 - Example Scenario
@@ -38,6 +28,12 @@ There was a need to update only those pages which needed a change without having
 
 With ISR, Next.js allows you to update static pages after you've built your application
 You can statically generate individual pages without needing to rebuild the entire site, effectively solving the issue of dealing with stale data
+`How? In the getStaticProps function, apart from the props key, we can specify a revalidate key, The value for revalidate is the number of seconds after which a page re-generation can occur`
+
+- On first re-load page after the re-validate time has finished -> regeneration gets triggered (regeneration is happening in the background) and you'll still see the stale data / content on page -> on another re-load -> updated data gets shown.
+
+- Note
+- `A re-generation is initiated only if a user makes a request after the revalidate time If a user visits our product details page but there is no other user hitting that page the entire day, the re-generation does not happen Revalidate does not mean the page automatically re-generates every 10 seconds It simply denotes the time after which, if a user makes a request, a re-generation has to be initiated The re-generation can also fail and the previously cached HTML could be served till the subsequent re-generations succeed`
 
 ## Getting Started
 
