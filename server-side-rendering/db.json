@@ -1,4 +1,12 @@
 {
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "comments": 40,
+    "followers": 20,
+    "following": 50
+  },
+
   "news": [
     {
       "id": 1,
@@ -19,12 +27,6 @@
       "category": "sports"
     }
   ],
-  "dashboard": {
-    "posts": 5,
-    "likes": 100,
-    "followers": 20,
-    "following": 50
-  },
   "events": [
     {
       "id": 1,
