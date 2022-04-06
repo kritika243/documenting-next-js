@@ -27,6 +27,8 @@
 ⭐ Pre rendering using Server Side rendering with getServerSideProps -> [here](https://github.com/kritika243/documenting-next-js/tree/ssr/server-side-rendering)
 <br/>
 ⭐ Server Side Rendering with dynamic params -> [here](https://github.com/kritika243/documenting-next-js/blob/ssr/server-side-rendering/pages/news/%5Bcategory%5D.js)
+<br/>
+⭐ Client Side data fetching (like normally in react) -> [here](https://github.com/kritika243/documenting-next-js/blob/ssr/server-side-rendering/pages/dashboard.js)
 
 ## Getting Started
 
