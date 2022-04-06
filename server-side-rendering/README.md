@@ -10,6 +10,10 @@
     It is used only for pre-rendering and not client-side data fetching
 4.  getServerSide Props should return an object and object should contain a props key which is an object
 5.  getServerSide Props will run at request time
+6.  You can extract a lot of things from the `context` object of getServerSideProps for eg
+    `const { params, req, res, query } = context`
+    `console.log(req.headers.cookie) res.setHeader('Set-Cookie', ['name = Joh Doe'])`
+    ` console.log(query)`
 
 ## Getting Started
 
