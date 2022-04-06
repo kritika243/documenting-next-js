@@ -23,6 +23,10 @@
 ⭐ Incremental Static Regeneration, a fix for stale data using revalidate key in getStaticProps -> [here](https://github.com/kritika243/documenting-next-js/tree/incremental-static-regeneration/incremental-static-regeneration)
 <br/>
 ⭐ Recap till now, Problems with Static Generation and possible solution -> [here](https://github.com/kritika243/documenting-next-js/tree/main/intro-server-side-rendering)
+<br/>
+⭐ Pre rendering using Server Side rendering with getServerSideProps -> [here](https://github.com/kritika243/documenting-next-js/tree/ssr/server-side-rendering)
+<br/>
+⭐ Server Side Rendering with dynamic params -> [here](https://github.com/kritika243/documenting-next-js/blob/ssr/server-side-rendering/pages/news/%5Bcategory%5D.js)
 
 ## Getting Started
 
