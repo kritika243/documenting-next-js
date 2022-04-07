@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# API Routes
+
+Next JS is a full stack framework
+You can write the FE code in React and also write APls that can be called by the front end code
+APl routes allow you to create RESTful endpoints as part of your Next.js application folder structure
+Within the pages folder, you need to create a folder called 'api'
+Within that 'api' folder, you can define all the APIs for your application
+You can add business logic without needing to write any additional custom server code and without having to configure any API routes
+Next JS gives you everything you need to write full-stack React + Node applications
 
 ## Getting Started
 
