@@ -8,6 +8,18 @@ Within that 'api' folder, you can define all the APIs for your application
 You can add business logic without needing to write any additional custom server code and without having to configure any API routes
 Next JS gives you everything you need to write full-stack React + Node applications
 
+## Summary of API Routes feature
+
+APl routing mechanism is similar to page based routing mechanism
+APls are associated with a route based on their file name
+Every API route exports a default function typically named as handler function
+The handler function receives the request and response as parameters
+Cater to different request types like GET and POST using req.method
+Dynamic API routes
+Catch alI API routes
+How to handle a DELETE request
+`We should not call our own API routes for pre-rendering content`
+
 ## Getting Started
 
 First, run the development server:
