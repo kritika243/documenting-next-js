@@ -2,6 +2,8 @@
 
 - Global styles in `_app.js`
 - For component level styling - using css modules from styles folder in src folder, this locally scope css by automatically creating a unique className which allows you to use same css className in different files without having to worry about name collision.
+- SASS Support- Install the sass package
+- Inline styles also possible
 
 ## Getting Started
 
