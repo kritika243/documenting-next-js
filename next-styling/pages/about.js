@@ -1,7 +1,9 @@
+import styles from '../styles/About.module.css'
+
 function About() {
   return (
     <>
-      <h2>About page</h2>
+      <h2 className={styles.text}>About page</h2>
       <button className='btn btn-primary'>Button</button>
     </>
   )
