@@ -35,6 +35,8 @@
 ⭐ API Route - GET, POST, DELETE with dynamic routes -> [here](https://github.com/kritika243/documenting-next-js/tree/main/next-api/pages/api/comments)
 <br/>
 ⭐ API Route - Catch all routes using [...params].js -> [here](https://github.com/kritika243/documenting-next-js/tree/main/next-api/pages/api)
+<br/>
+⭐ Styling in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/main/next-styling)
 
 ## Getting Started
 
