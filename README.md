@@ -1,4 +1,4 @@
-# So far
+# So far...
 
 ⭐ A simple hello world / introduction -> [here](https://github.com/kritika243/documenting-next-js/tree/hello-world/hello-world)
 <br/>
