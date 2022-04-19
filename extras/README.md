@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Summary
+
+- App layout in \_app.js file
+- Head component which helps you dynamically manage a document's head section
+- Image component optimization
+- Configure absolute imports with the jsconfig.json
+- Setup support for TypeScript
+- Preview mode feature is very helpful when working with a CMS
+- Next configuration file and configuring redirects
+- Environment variables
 
 ## Getting Started
 
