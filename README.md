@@ -37,6 +37,8 @@
 ⭐ API Route - Catch all routes using [...params].js -> [here](https://github.com/kritika243/documenting-next-js/tree/main/next-api/pages/api)
 <br/>
 ⭐ Styling in Next.js -> [here](https://github.com/kritika243/documenting-next-js/tree/main/next-styling)
+<br/>
+⭐ Extras -> [here](https://github.com/kritika243/documenting-next-js/tree/main/extras)
 
 ## Getting Started
 
